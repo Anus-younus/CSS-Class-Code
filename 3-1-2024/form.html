@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- Chapter no 7 Forms -->
+    <form>
+        <fieldset>
+            <legend>Revegen</legend>
+      <p>Enter Your Name<input type="text" name="Enter Your Name" size="15" maxlength="15" required placeholder="Enter Your Name"></p>
+      <br><br>
+      <p>Enter Your Pasword<input type="password" name="Enter Your pasword" size="15" maxlength="8" required placeholder="Enter Your Name"></p>
+      <br><br>
+      <p>Select your Gender
+        <input type="radio" name="gender" checked>Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other</p>
+      <br><br>
+      <p>Select Your Subject
+        <input type="checkbox" name="Math" checked>Math
+        <input type="checkbox" name="English">English
+        <input type="checkbox" name="Science">Sciencer</p>
+      </p>
+      <br><br>
+      <label>Select Your City
+        <select name="City" size="1" multiple="multiple">
+        <option disabeled selected>Select Your City</option>    
+        <option>Karachi</option>    
+        <option>Lahore</option>
+        <option>Islamabad</option>
+        <option>Queeta</option>
+      </select>
+      </label>
+      <br><br>
+      <label>
+        Enter Your CV
+        <input type="file" name="Enter Your CV" required><br>
+        <input type="submit" name="submit" value="uplaod" required>
+      </label>
+      <br><br>
+      <label>
+          <input type="text" name="email" placeholder="e.g">        
+        <input type="image" name="subscribe" src="../my essigment/3-1-2024/Images/dinner2.jpg" height="30px" width="70px">
+      </label>
+      <br><br>
+    </fieldset>
+    <fieldset>
+        <label>
+            Search Your Data
+            <input type="search" name="Data search">
+        </label>
+        <br><br>
+        <legend>Practice</legend>
+      <label>
+        Hidden Data
+        <input type="hidden" name="e.g">
+      </label>
+      <br><br>
+      <label>Select Your Subject
+        <select name="subjects">
+        <option disabeled selected>Select Your Subject</option>    
+        <option>General Knowlegde</option>    
+        <option>Math</option>
+        <option>Science</option>
+        <option>English</option>
+      </select>
+    </label>
+      <br><br>
+      <label>
+        Enter Your URL
+        <input type="url" name="Enter your URL">
+      </label>
+      <br><br>
+      <label>Addmision Date
+        <input type="date" name="Admission-date">
+      </label>
+      <br><br>
+    <p>Enter you Comments</p><br>
+    <textarea name="Enter your Comments" cols="30" rows="10" required></textarea>
+    <br><br>
+    <label for="one">
+Enter Your Email
+    </label>
+    <input type="email" name="enter your email" id="one" required>
+    <button>Submit</button>
+    </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+/* Type Selectors */
+body{
+    background-color: lightcyan;
+}
+h1 {
+    color: purple;
+}
+p {
+    color: green;
+}
+/* Class Selectors */
+.even{
+    color: red;
+}
+/* id Selectors */
+#one {
+    text-decoration: underline;
+    color: red;
+}

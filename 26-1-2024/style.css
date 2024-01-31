@@ -1,0 +1,49 @@
+ul {
+  list-style-type: lower-roman;
+}
+ol {
+  list-style-type: circle;
+}
+/* .list-1{
+ list-style-image: url(./images/download\ \(1\).jpg);
+} */
+.list-2 {
+  list-style-position: inside;
+  list-style-type: circle;
+}
+table {
+  width: 600px;
+  border-collapse: collapse;
+  border-spacing: 15px 20px;
+}
+th,
+td {
+  padding: 7px 10px 10px 10px;
+  cursor: pointer;
+}
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+  border-bottom: 2px solid #111111;
+  border-top: 1px solid #999;
+  text-align: left;
+  cursor: pointer;
+}
+tr.even {
+  background-color: #efefef;
+}
+tr:hover {
+  background-color: #c3e6e5;
+}
+.money {
+  text-align: right;
+}
+.para-1{
+    position: absolute;
+    top: 0;
+}
+h1{
+    position: fixed;
+    top: 20px;
+}
